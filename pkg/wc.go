@@ -2,10 +2,9 @@ package wc
 
 import (
 	"fmt"
-	"strings"
+	"flags"
 )
 
-func main() {
-	name string := "israel"
-	fmt.Println("My Name is", name)
-}
+	type wc strings{
+		
+	}
